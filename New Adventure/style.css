@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+    line-height: 2.5;
+    background-color: tan;
+    font-family: 'Mynerve', cursive;
+    text-align: center;
+
+}
+
+.nav-section {
+    height: 600px;
+    background-color: turquoise;
+    text-align: right;
+    margin: auto;
+    padding-right: 75px;
+    font-family: 'Mynerve', cursive;
+    
+    
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
