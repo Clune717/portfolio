@@ -1,45 +1,56 @@
-console.log('hello world')
-
 $(() => {
-  // const $modal = ("#modal");
-  // const $btn = ("#model-button")
-
-  // const openModal = () => {
-  //     $modal.css('display', 'block')
-  // }
-  // $btn.on('click', open)
-  // console.log(yes)
 
   const $openBtn = $("#openModal");
 
   const $modal = $("#modal");
-  const $openTxt = $("#modalTextbox");
   const $closeBtn = $("#close");
+  // open BIO
+  const $bioBtn = $("#openBio");
+  const $2modal = $("#2modal");
+  
+  
+// open Skills
+  const $3modal = $("#3modal");
+  const $skillsBtn = $("#openSkills");
 
-  // const $openBio = $('#openBio')
+  // P info for BIO
+  const $biop = $("<p>")
+    .text(
+      "Hello my name is Dedrick McCluney I reside in Harrisburg, PA by way of Alabama. I have over a decade in logistics, supply, and warehouse work. I am willing to learn everyday if it was possible. I am now an inspiring software engineer  that wants to learn and share my ideas with a motivated team of developers."
+    )
+    .appendTo($2modal)
+    .css("display", "none");
+
+  const $skillsp = $("<p>")
+    .text(
+      "Former Ammunition Stock Control Specialist with eight years serving in the United States Army. Excellent leadership skills, ability to carry out work with minimal supervision, attention to detail and ability to work under strict deadlines. Strong managerial, time management and communication skills. Can work with a team very easy going, ability to adapt in difficult situations.Willing to relocate: Anywhere"
+    )
+    .appendTo($3modal)
+    .css("display", "none");
 
   const openModal = () => {
     $modal.css("display", "block");
   };
   $openBtn.on("click", openModal);
 
-  const modalTextbox = () => {
-    $openTxt.css('display', 'inline-block');
-  }
-  $openTxt.on('click', modalTextbox)
-
   const closeModal = () => {
     $modal.css("display", "none");
   };
   $closeBtn.on("click", closeModal);
 
-  // const openBio = () =>{
-  //     $modal.css('display', 'block')
-  // }
-  // $openBtn.on('click', openBio)
+  const openBio = () => {
+    $biop.css("display", "block");
+  };
+  $bioBtn.on("click", openBio);
+
+  
+
+  const openSkills = () => {
+    $skillsp.css("display", "block");
+  };
+  $skillsBtn.on("click", openSkills);
+
+  
 });
-
-
-
 
 //$('<p>').text('Hello my name is Dedrick McCluney I reside in Harrisburg, PA by way of Alabama. I have over a decade in logistics, supply, and warehouse work. I am willing to learn everyday if it was possible. I am now an inspiring software engineer  that wants to learn and share my ideas with a motivated team of developers.').

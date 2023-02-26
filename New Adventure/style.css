@@ -48,20 +48,25 @@ ul {
 
 
 #modal {
-	background-color: rgba(183, 41, 196, 0.4);
+	background-color: rgba(253, 252, 253, 0.5);
     
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 1;
+	height: 50%;
+	width: 50%;
+	z-index: 5;
 	overflow: auto;
 	display: none;
+    margin: 20%;
+    border: 5PX;
+    padding: 5%;
+    text-overflow: inherit;
+    text-justify: auto;
 }
 
-#modal-textbox{
-	background-color: rgba(81, 171, 156, 0.79);
+/* #modal-textbox{ */
+	/* background-color: rgba(81, 171, 156, 0.79);
 	height: 350px;
 	width: 550px;
     z-index: 1;
@@ -69,8 +74,8 @@ ul {
 	margin: 150px auto;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 	padding: 2%;
-	line-height: 120%;
-}
+	line-height: 120%; */
+/* } */
 
 #modal-footer {
 	text-align: right;
@@ -82,16 +87,17 @@ ul {
 
 .modal-buttons{
 	padding: 20px;
-	background-color: peachpuff;
+	background-color: rgb(247, 246, 245);
 	color: rgb(14, 10, 10);
 	border: 4;
 	margin: 9%;
-	
+	z-index: 1;
 	font-family: Arial;
 	cursor: pointer;
 }
 p{
     display: none;
+
 }
 
 ul {
@@ -103,4 +109,3 @@ ul {
 body {
     background-color: rgba(149, 57, 97, 0.4);
 }
-
