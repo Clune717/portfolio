@@ -2,18 +2,20 @@
 
  body {
 
-     background-position: center;
-     line-height: 2.5;
-     background-color: rgba(1, 119, 93, 0.441);
-     font-family: 'Mynerve', cursive;
-     text-align: center;
-     overflow: auto;
-     padding: 80px;
-     margin: 80px;
-     
-     background-image: url("https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRlY2hub2xvZ3klMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
-     
-     background-repeat: no-repeat;
+    background-position: center;
+        line-height: 2.5;
+        background-color: rgba(1, 119, 93, 0.441);
+        font-family: 'Mynerve', cursive;
+        text-align: center;
+        overflow: auto;
+        padding: 100px;
+        /* margin: 80px;  */
+        /* background-image: url("https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRlY2hub2xvZ3klMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
+        /* background-repeat: no-repeat;
+        border-radius: 4px;
+        width: 400px;
+        max-width: 100%;
+         */
      
      
      
@@ -46,18 +48,8 @@
      padding: 5%;
      
      text-justify: auto;
-   
+ 
  }
-
-
-
- #modal-footer {
-     text-align: right;
-
-
- }
-
-
 
  .modal-buttons {
      padding: 20px;
@@ -86,3 +78,12 @@
     
     
  }
+
+ img{
+    margin: 50px;
+    padding: 30px;
+    height: 400px;
+ }
+
+ 
+

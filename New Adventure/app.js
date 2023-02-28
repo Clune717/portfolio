@@ -25,8 +25,6 @@ $(() => {
     .appendTo($2modal)
     .css("display", "none");
 
-  //button to go back fro bio
-  const $closeBio = $("<button>").text("BACK").appendTo($biop);
 
   // p info for Skills
   const $skillsp = $("<p>")
@@ -36,7 +34,6 @@ $(() => {
     .appendTo($3modal)
     .css("display", "none");
 
-  const $closeSkills = $("<button>").text("BACK").appendTo($skillsp);
 
   const openModal = () => {
     $modal.show("swing");
@@ -56,10 +53,6 @@ $(() => {
   };
   $bioBtn.click(openBio);
 
-  const closeBio = () => {
-    $biop.hide();
-  };
-  $closeBio.on("click", closeBio);
 
   const openSkills = () => {
     $skillsp.show("slow");
@@ -68,8 +61,5 @@ $(() => {
   };
   $skillsBtn.on("click", openSkills);
 
-  const closeSkills = () => {
-    $skillsp.hide();
-  };
-  $closeSkills.on("click", closeSkills);
+ 
 });
