@@ -36,7 +36,7 @@ $(() => {
 
 
   const openModal = () => {
-    $modal.show("swing");
+    $modal.show();
     $modal.css("display", "block");
   };
   $openBtn.on("click", openModal);
